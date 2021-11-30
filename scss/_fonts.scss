@@ -1,0 +1,39 @@
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/raleway-v22-latin-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v22-latin-regular.woff') format('woff');
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/raleway-v22-latin-700.woff2') format('woff2'),
+    url('../fonts/raleway-v22-latin-700.woff') format('woff');
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'),
+    url('../fonts/open-sans-v27-latin-regular.woff') format('woff');
+}
+
+/* nunito-sans-regular - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/nunito-sans-v8-latin-regular.woff2') format('woff2'),
+    url('../fonts/nunito-sans-v8-latin-regular.woff') format('woff');
+}

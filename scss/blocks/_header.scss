@@ -1,0 +1,40 @@
+.site-header {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+
+        &-link {
+            margin-left: 24px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .site-header {
+        margin-top: 72px;
+    }
+
+    .header {
+        &__list {
+            &-link {
+                font-size: 16px;
+                line-height: 19px;
+                margin-left: 57px;
+            }
+        }
+    }
+}

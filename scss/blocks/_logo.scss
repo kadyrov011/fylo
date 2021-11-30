@@ -1,0 +1,15 @@
+.logo {
+    &__img {
+        width: 80px;
+        height: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        &__img {
+            width: auto;
+            height: auto;
+        }
+    }
+}
